@@ -26,12 +26,12 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/recipes"
+            to="/blog"
             className="nav-link"
             activeClassName="active-link"
             onClick={() => setShow(false)}
           >
-            Recipes
+            Blog
           </Link>
           <Link
             to="/tags"

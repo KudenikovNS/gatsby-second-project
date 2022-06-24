@@ -7,16 +7,10 @@ const Contact = () => {
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">
-            <h3>Want To Get In Touch?</h3>
-            <p>
-              Four dollar toast biodiesel plaid salvia actually pickled banjo
-              bespoke mlkshk intelligentsia edison bulb synth.
-            </p>
-            <p>Cardigan prism bicycle rights put a bird on it deep v.</p>
-            <p>
-              Hashtag swag health goth air plant, raclette listicle fingerstache
-              cold-pressed fanny pack bicycle rights cardigan poke.
-            </p>
+            <h3>Шапка для блога</h3>
+            <p>Что-нибудь мотивирующее!</p>
+            <p>Что-то нужное!</p>
+            <p>Что-то надежное!</p>
           </article>
           <article>
             <form className="form contact-form">
@@ -33,7 +27,7 @@ const Contact = () => {
                 <textarea name="message" id="message"></textarea>
               </div>
               <button type="submit" className="btn block">
-                отправить
+                Отправить
               </button>
             </form>
           </article>
